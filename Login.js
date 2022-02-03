@@ -24,13 +24,14 @@ function HomeLogin({navigation}){
     const onChangePassword = (txtPassword) => {
         setEmail(txtPassword)
     }
+    /*
     const login =  () =>{
         firebase.auth().signInWithEmailAndPassword(email,password).then(()=>{
             navegarSucess()
         }).catch(()=> {
             navegarFailed()
         })
-    }
+    }*/
     return(
         <View>
             <Text>Login de user</Text>
